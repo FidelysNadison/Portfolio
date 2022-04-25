@@ -16,10 +16,24 @@
     nav{
         display: flex;
         justify-content: space-around;
+        background-color: rgb(92, 89, 89);
         ul{
             display: flex;
             justify-content: space-around;
             list-style: none;
+            margin-top: 0%;
+        }
+    }
+
+    #about-me{
+        background-image: url("../../assets/images/fond.jpg");
+        h1{
+            text-align: center;
+            color: yellow;
+        }
+        button{
+            display: block;
+            margin: auto;
         }
     }
 }

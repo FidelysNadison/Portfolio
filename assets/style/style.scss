@@ -1,0 +1,25 @@
+@media only screen and  (max-width:600px){
+    body{
+        background-color: black;
+        color: white;
+        h1{
+            color: white;
+        }
+        h2{
+            color: yellow;
+        }
+        p{
+            color: white;
+        }
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+    }
+}

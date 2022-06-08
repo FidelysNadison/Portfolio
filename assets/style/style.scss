@@ -1,39 +1,44 @@
-@media only screen and  (max-width:600px){
-    body{
-        background-color: black;
+body {
+    background-color: black;
+    color: white;
+
+    h1 {
         color: white;
-        h1{
-            color: white;
-        }
-        h2{
-            color: yellow;
-        }
-        p{
-            color: white;
-        }
     }
 
-    nav{
+    h2 {
+        color: yellow;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00FFE0;
+    border-radius: 30px;
+
+    ul {
         display: flex;
         justify-content: space-around;
-        background-color: rgb(92, 89, 89);
-        ul{
-            display: flex;
-            justify-content: space-around;
-            list-style: none;
-            margin-top: 0%;
-        }
+        list-style: none;
+        margin-top: 0%;
+    }
+}
+
+#about-me {
+    background-image: url("../../assets/images/FondAbout.png");
+
+    h1 {
+        text-align: center;
+        color: yellow;
     }
 
-    #about-me{
-        background-image: url("../../assets/images/fond.jpg");
-        h1{
-            text-align: center;
-            color: yellow;
-        }
-        button{
-            display: block;
-            margin: auto;
-        }
+    button {
+        display: block;
+        margin: auto;
     }
 }

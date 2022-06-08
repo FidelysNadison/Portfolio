@@ -1,44 +1,51 @@
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: black;
-    color: white;
-  }
-  body h1 {
-    color: white;
-  }
-  body h2 {
-    color: yellow;
-  }
-  body p {
-    color: white;
-  }
-  nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    background-color: #5c5959;
-  }
-  nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    list-style: none;
-    margin-top: 0%;
-  }
-  #about-me {
-    background-image: url("../../assets/images/fond.jpg");
-  }
-  #about-me h1 {
-    text-align: center;
-    color: yellow;
-  }
-  #about-me button {
-    display: block;
-    margin: auto;
-  }
+body {
+  background-color: black;
+  color: white;
+}
+
+body h1 {
+  color: white;
+}
+
+body h2 {
+  color: yellow;
+}
+
+body p {
+  color: white;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #00FFE0;
+  border-radius: 30px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  margin-top: 0%;
+}
+
+#about-me {
+  background-image: url("../../assets/images/FondAbout.png");
+}
+
+#about-me h1 {
+  text-align: center;
+  color: yellow;
+}
+
+#about-me button {
+  display: block;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */

@@ -84,13 +84,38 @@
     <section id="contactForm">
       <h2>CONTACT</h2>
       <img src="/assets/images/RectangleFond.png" alt="fond" />
+      <img src="/assets/images/new-email.png" alt="">
+      
+      <form class="row g-3"></form>
+        <!--for First and last name-->
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label"></label>
+            <input type="text" class="form-control" id="firstName" placeholder="First name" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault02" class="form-label"></label>
+            <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
+          </div>
+
+        <!--For Adress Email-->
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@email.com">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+      <!---For Message-->
+        <div class="mb-3">
+          <label for="validationTextarea" class="form-label"></label>
+          <textarea class="form-control " id="" placeholder="Enter your message"></textarea>
+        </div>  
+
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
     </section>
 
     <footer>
       <div class="linkedin">
         <a href="https://be.linkedin.com/in/FidelysNadison"><i class="fa-brands fa-linkedin"></i></a>
-      </div>
-      <div class="github">
         <a href="https://github.com/FidelysNadison"><i class="fa-brands fa-github"></i></a>
       </div>
     </footer>

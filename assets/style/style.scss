@@ -73,6 +73,7 @@ body {
   }
 
   #contactForm {
+      background-color: #343434;
       margin-top: 50px;
     h2{
         text-align: center;
@@ -82,7 +83,24 @@ body {
     img{
         width: 100px;
         display: block;
-        margin-top: 50px;
     }
+    button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #ffc700;
+        background-color: #ffc700;
+        border-radius: 20px;
+        color: #343434;
+    }
+
   }
+
+  footer{
+      i {
+        color: #00fff0;
+        margin-left: 96%;
+        list-style: none;
+  }
+}
 }

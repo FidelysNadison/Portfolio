@@ -8,11 +8,11 @@ body h1 {
 }
 
 body h2 {
-  color: yellow;
+  color: #00FFF0;
 }
 
 body p {
-  color: white;
+  color: #FFC700;
 }
 
 nav {
@@ -20,7 +20,9 @@ nav {
 }
 
 nav img {
-  margin-left: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50px;
   height: 50px;
 }

@@ -27,22 +27,22 @@ nav img {
   height: 50px;
 }
 
-#about-me {
-  background-image: url("/assets/images/FondAbout.png");
+#presentation {
+  background-image: url("../images/FondAbout.png");
   background-size: 1800px;
   background-repeat: no-repeat;
 }
 
-#about-me img {
+#presentation img {
   width: 100px;
 }
 
-#about-me h1 {
+#presentation h1 {
   text-align: center;
   color: yellow;
 }
 
-#about-me button {
+#presentation button {
   display: block;
   margin: auto;
 }

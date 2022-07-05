@@ -3,23 +3,11 @@ body {
   color: white;
 }
 
-body h1 {
-  color: white;
-}
-
-body h2 {
-  color: #00FFF0;
-}
-
-body p {
-  color: #FFC700;
-}
-
-nav {
+body nav {
   border-radius: 50px;
 }
 
-nav img {
+body nav img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -45,5 +33,9 @@ nav img {
 #presentation button {
   display: block;
   margin: auto;
+}
+
+#aboutMe {
+  background-color: #343434;
 }
 /*# sourceMappingURL=style.css.map */

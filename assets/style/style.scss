@@ -1,61 +1,88 @@
 body {
-    background-color: black;
-    color: white;
-    nav{
-        border-radius: 50px;
-        img{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50px;
-            height: 50px;
-        }
+  background-color: black;
+  color: white;
+  nav {
+    border-radius: 50px;
+    background-color: #00fff0;
+    opacity: 0.5;
+    
+    img {
+      display: block;
+      width: 50px;
+      height: 50px;
     }
+  }
 
-}
-
-#presentation {
+  #presentation {
     background-image: url("../images/FondAbout.png");
-    background-size: 1000px ;
+    background-size: 1000px;
     background-repeat: no-repeat;
-    img{
-        width: 100px;
-        display: block;
-        margin-top: 10px;
-        margin-left: 45%;
+    img {
+      width: 100px;
+      display: block;
+      margin-top: 50px;
+      margin-left: 45%;
     }
 
     h1 {
-        text-align: right;
-        color: #00FFF0;
+      text-align: right;
+      color: #00fff0;
     }
-    p{
-        text-decoration: underline;
-        text-align: right;
-        color: #FFC700;
+    p {
+      text-decoration: underline;
+      text-align: right;
+      color: #ffc700;
     }
-}
+  }
 
-#aboutMe {
+  #aboutMe {
     margin-top: 50px;
     background-color: #343434;
+    h2 {
+      text-align: center;
+      color: #ffc700;
+      text-decoration: underline;
+    }
+    img {
+        width: 100px;
+    }
+
+    button {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 5px solid #ffc700;
+      background-color: #ffc700;
+      border-radius: 20px;
+      color: #343434;
+    }
+  }
+
+  #projects {
+    margin-top: 50px;
+    h2 {
+      text-align: center;
+      color: #00fff0;
+      text-decoration: underline;
+    }
+    img {
+      width: 100px;
+      display: block;
+      margin-top: 50px;
+    }
+  }
+
+  #contactForm {
+      margin-top: 50px;
     h2{
         text-align: center;
-        color: #FFC700;
+        color: #ffc700;
         text-decoration: underline;
     }
     img{
-        width: 50px;
-        height: 50px;
-    }
-
-    button{
+        width: 100px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border: 5px solid #FFC700;
-        background-color: #FFC700;
-        border-radius: 12px;
-        color: #343434;
+        margin-top: 50px;
     }
+  }
 }

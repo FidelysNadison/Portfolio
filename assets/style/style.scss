@@ -10,30 +10,52 @@ body {
             width: 50px;
             height: 50px;
         }
-
-}
+    }
 
 }
 
 #presentation {
     background-image: url("../images/FondAbout.png");
-    background-size: 1800px ;
+    background-size: 1000px ;
     background-repeat: no-repeat;
     img{
         width: 100px;
+        display: block;
+        margin-top: 10px;
+        margin-left: 45%;
     }
 
     h1 {
-        text-align: center;
-        color: yellow;
+        text-align: right;
+        color: #00FFF0;
     }
-
-    button {
-        display: block;
-        margin: auto;
+    p{
+        text-decoration: underline;
+        text-align: right;
+        color: #FFC700;
     }
 }
 
 #aboutMe {
+    margin-top: 50px;
     background-color: #343434;
+    h2{
+        text-align: center;
+        color: #FFC700;
+        text-decoration: underline;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+    button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #FFC700;
+        background-color: #FFC700;
+        border-radius: 12px;
+        color: #343434;
+    }
 }

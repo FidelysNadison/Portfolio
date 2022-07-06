@@ -54,6 +54,16 @@ body #aboutMe img {
   width: 100px;
 }
 
+body #aboutMe .backgroundOne {
+  position: absolute;
+  z-index: 1;
+}
+
+body #aboutMe .programmeur {
+  margin: 30px;
+  z-index: 2;
+}
+
 body #aboutMe button {
   display: block;
   margin-left: auto;
@@ -96,6 +106,16 @@ body #contactForm img {
   display: block;
 }
 
+body #contactForm .backgroundTwo {
+  position: absolute;
+  z-index: 1;
+}
+
+body #contactForm .iconeMail {
+  margin: 30px;
+  z-index: 2;
+}
+
 body #contactForm button {
   display: block;
   margin-left: auto;
@@ -108,7 +128,18 @@ body #contactForm button {
 
 body footer i {
   color: #00fff0;
-  margin-left: 96%;
-  list-style: none;
+}
+
+body footer i .linkedin {
+  padding-left: 12px;
+  float: left;
+  position: fixed;
+}
+
+body footer i .github {
+  padding: 12px;
+  float: left;
+  padding-left: 18%;
+  position: fixed;
 }
 /*# sourceMappingURL=style.css.map */

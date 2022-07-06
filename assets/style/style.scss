@@ -46,6 +46,15 @@ body {
     img {
         width: 100px;
     }
+    .backgroundOne{
+      position: absolute;
+      z-index: 1;
+    }
+    .programmeur {
+      margin: 30px;
+      z-index: 2;
+    }
+
 
     button {
       display: block;
@@ -84,6 +93,14 @@ body {
         width: 100px;
         display: block;
     }
+    .backgroundTwo {
+      position: absolute;
+      z-index: 1;
+    }
+    .iconeMail {
+      margin: 30px;
+      z-index: 2;
+    }
     button {
         display: block;
         margin-left: auto;
@@ -99,8 +116,17 @@ body {
   footer{
       i {
         color: #00fff0;
-        margin-left: 96%;
-        list-style: none;
+      .linkedin {
+        padding-left: 12px;
+        float: left;
+        position: fixed; 
+      }
+      .github {
+        padding: 12px;
+        float: left;
+        padding-left: 18%;
+        position: fixed;
+      }
   }
 }
 }
